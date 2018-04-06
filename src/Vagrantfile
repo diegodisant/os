@@ -1,0 +1,16 @@
+VAGRANT_FILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANT_FILE_API_VERSION) do |config|
+	# Define the box to work with it
+	config.vm.box = "lucid32"
+
+	# Define the URL of working box
+	config.vm.box_url = "http://files.vagrantup.com/lucid32.box"
+
+	$script = %Q{
+		sudo apt-get update
+		sudo apt-get install nasm make build-essential grub qemu zip -y --force-yes
+	}
+
+	config.vm.provision :shell, :inline => $script
+end
