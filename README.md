@@ -24,3 +24,12 @@ This is one operating system based on x86-32 architecture, builded with Posix AP
     + LibC
     + Run shell process and executables
 
+## Test the OS
+
+First build all the dependencies 
+
+	make all
+
+Then run the OS
+
+	make run
