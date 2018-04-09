@@ -1,8 +1,8 @@
 # CaptaincodeOS
 
-This is one operative system based on x86-32 architecture, builded with Posix API, is compatible with new PCs by x86-64 arch and its retro-compatibility.
+This is one operating system based on x86-32 architecture, builded with Posix API, is compatible with new PCs by x86-64 arch and its retro-compatibility.
 
-    The goal of this little project is to build a real operative system with 32 bit arch
+    The goal of this little project is to build a real operating system with 32 bit arch
 
 ## Specifications
 
